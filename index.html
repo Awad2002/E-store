@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    
+    <div class="fixed-top shadow-sm">
+            
+    <!-- Start Nav 1 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">E-Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                <form class="search-nav">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"> <i class="fas fa-search"></i> </button>
+                </form>
+            </ul>
+
+            <form class="d-flex actions">
+                <a href="#"> <i class="far fa-heart"></i> </a>
+                <a href="#" class="ms-5"> <i class="far fa-shopping-cart"> <span> 2 </span> </i> </a>
+                <a href="#" class="nav-btn ms-5"> Login </a>
+            </form>
+
+          </div>
+        </div>
+      </nav>
+    <!-- End Nav 1 -->
+
+    <!-- Start Nav 2 -->
+    <div class="nav-2 p-2">
+        <div class="container text-center">
+            <ul>
+                <li><a href="#" class="me-5"> BRANCHES </a></li>
+                <li><a href="#" class="me-5"> ABOUT US </a></li>
+                <li><a href="#" class="me-5"> DELIVERY </a></li>
+                <li><a href="#" style="font-family: 'Almarai', sans-serif; font-weight: 600;"> العربية <img src="img/flag.svg" class="d-inline ms-1" style="height: 20px;"> </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Nav 2 --> 
+    </div>
+    
+    <!-- Start Ads Slider -->
+    <div class="container">
+        <div style="border-radius: 8px; overflow: hidden;" id="carouselExampleIndicators" class="carousel slide mt-120" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image: url(img/ad-img1.png);"></div>
+              <div class="carousel-item" style="background-image: url(img/ad-img2.png);"></div>
+              <div class="carousel-item" style="background-image: url(img/ad-img3.png);"></div>
+              <div class="carousel-item" style="background-image: url(img/ad-img4.png);"></div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- End Ads Slider -->
+
+    <!-- Start Delivery -->
+    <div class="container">
+        <div class="delivery p-4 pb-5 shadow-sm mt-5">
+            <h4 class="fw-bold"> Delivery </h4>
+        <div class=" mt-4">
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="city" class="d-inline-block mb-2"> Area </label>
+                        <select name="city" id="city" class="w-100 shadow-sm">
+                            <option value="none">Select Area</option>
+                            <option value="Area 2">Area 2</option>
+                            <option value="Area 3">Area 3</option>
+                            <option value="Area 4">Area 4</option>
+                            <option value="Area 5">Area 5</option>
+                            <option value="Area 6">Area 6</option>
+                            <option value="Area 7">Area 7</option>
+                            <option value="Area 8">Area 8</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <label for="city" class="d-inline-block mb-2"> Delivery Time </label>
+                        <select name="city" id="city" class="w-100 shadow-sm">
+                            <option value="none">Select time</option>
+                            <option value="City 2"> 08:00AM </option>
+                            <option value="City 2"> 09:00AM </option>
+                            <option value="City 2"> 10:00AM </option>
+                            <option value="City 2"> 11:00AM </option>
+                            <option value="City 2"> 12:00AM </option>
+                            <option value="City 2"> 01:00PM </option>
+                            <option value="City 2"> 02:00PM </option>
+                            <option value="City 2"> 03:00PM </option>
+                            <option value="City 2"> 04:00PM </option>
+                            <option value="City 2"> 05:00PM </option>
+                            <option value="City 2"> 06:00PM </option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    <!-- End Delivery -->
+
+    <!-- Start Categories -->
+    <div class="categories mt-5">
+        <div class="container">
+            <div class="d-flex" style="align-items: center;">
+                <h2 class="fw-bold d-inline"> Categories </h2>
+                <a href="#" class="ms-auto" style="text-decoration: none; font-weight: 500;"> SEE MORE <i class="far fa-arrow-right"></i> </a>
+            </div>
+            <div class="row mt-4">
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img1.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Mobile Phones </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img2.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Laptops </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img3.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Accessories </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img4.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Clothes </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img1.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Mobile Phones </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img2.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Laptops </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img3.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Accessories </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img4.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Clothes </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img1.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Mobile Phones </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img2.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Laptops </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img3.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Accessories </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"> 
+                    <div class="categorie-item mb-4" style="background-image: url('img/categorie-img4.jpg');">
+                        <div class="opacity"></div>
+                        <div class="text">
+                            <h4 class="mb-2"> Clothes </h4>
+                            <a href="#"> Shop Now <i class="far fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Categories -->
+
+    <footer class="w-100 mt-5">
+        <div class="container">
+
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

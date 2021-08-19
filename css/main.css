@@ -1,0 +1,169 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Start NavBar 1 */
+.navbar .search-nav {
+    position: relative;
+}
+
+.navbar .search-nav input {
+    border-radius: 100px;
+    padding: 13px;
+    padding-left: 20px;
+    width: 530px;
+}
+
+.navbar .search-nav button {
+    position: absolute;
+    right: 16px;
+    top: 9px;
+    border: 0;
+    color: #333333;
+}
+
+.navbar .search-nav button:hover {
+    background-color: #fff !important;
+    color: #333333;
+}
+
+.navbar .search-nav button i {
+    font-size: 18px;
+}
+
+.navbar .actions {
+    align-items: center;
+}
+
+.navbar .actions i {
+    position: relative;
+    font-size: 24px;
+    color: #333333;
+    transition: 0.1s;
+}
+
+.navbar .actions i:hover {
+    font-weight: 600;
+}
+
+.navbar .actions i span {
+    position: absolute;
+    right: -8px;
+    top: -6px;
+    font-size: 14px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: #0773ff;
+}
+
+.navbar .actions .nav-btn {
+    text-decoration: none;
+    font-weight: 400;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 100px;
+    padding: 11px 47px;
+    box-sizing: border-box;
+    border: 2px solid #33333300;
+    transition: 0.2s;
+}
+
+.navbar .actions .nav-btn:hover {
+    color: #333333;
+    background-color: #fff;
+    border: 2px solid #333333;
+}
+/* End NavBar 1 */
+
+/* Start NavBar 2 */
+.nav-2 {
+    background-color: #fff;
+}
+.nav-2 ul {
+    list-style: none;
+}
+.nav-2 ul li {
+    display: inline-block;
+}
+.nav-2 ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+.nav-2 ul li a:hover {
+    border-bottom: 2px solid #333333;
+}
+/* End NavBar 2 */
+
+/* Start Categories */
+.categories .categorie-item {
+    height: 390px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .categorie-item:hover .opacity {
+    opacity: 0.20;
+}
+
+.categories .categorie-item .text {
+    color: #fff;
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+}
+.categories .categorie-item .text h4 {
+    font-weight: 600;
+}
+.categories .categorie-item .text a {
+    color: #fff;
+    text-decoration: none;
+}
+/* End Categories */
+.carousel-item {
+    background-color: #000;
+    height: 488px;
+    background-position: center;
+    background-size: cover;
+}
+/* Start Delivery */
+.delivery {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.delivery form select {
+    border-radius: 8px;
+    padding: 13px;
+    border: 2px solid rgba(0, 0, 0, 0.13);
+}
+/* End Delivery */
+
+footer {
+    background-color: #333333;
+    height: 220px;
+}
+/* Classes */
+.mt-80 {
+    margin-top: 70px;
+}
+.mt-120 {
+    margin-top: 170px;
+}
+.opacity {
+    position: absolute;
+    width: 100%;
+    transition: 0.46s;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.42;
+}
+
