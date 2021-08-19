@@ -103,7 +103,7 @@ body {
 
 /* Start Categories */
 .categories .categorie-item {
-    height: 390px;
+    height: 380px;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -176,5 +176,12 @@ footer {
     }
     .navbar .search-nav {
         margin-top: 20px;
+    }
+    .row .col-12 label {
+        margin-top: 16px;
+    }
+    .categories .categorie-item {
+        height: 240px;
+
     }
   }
