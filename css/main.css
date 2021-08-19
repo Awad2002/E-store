@@ -167,3 +167,8 @@ footer {
     opacity: 0.42;
 }
 
+@media screen and (max-width: 480px) {
+    .nav-2 ul li a {
+        margin-right: 10px !important;
+    }
+  }
