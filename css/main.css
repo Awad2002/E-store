@@ -171,4 +171,10 @@ footer {
     .nav-2 ul li a {
         margin-right: 10px !important;
     }
+    .navbar .search-nav input {
+        width: 100%;
+    }
+    .navbar .search-nav {
+        margin-top: 20px;
+    }
   }
