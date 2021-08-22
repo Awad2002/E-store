@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Abu Dalal</title>
+    <title>Abu Dalal Mall</title>
 
-    
-
+    <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -28,10 +27,10 @@
     <nav class="navbar navbar-expand-lg navbar-light p-2">
         <div class="container">
           <a class="navbar-brand text-white" href="index.html">ABU DALAL MALL</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidemenu" aria-controls="sidemenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="sidemenu">
 
             <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
                 <form class="search-nav">
@@ -52,6 +51,47 @@
           </div>
         </div>
       </nav>
+
+      <div class="my-nav p-3">
+        <ul class="d-flex p-0">
+            <li class="me-3"> 
+                <button id="menu-btn"> 
+                    <svg _ngcontent-ili-c0="" class="custom_icon" data-name="Group 6077" height="33" id="Group_6077" viewBox="0 0 49.649 33" width="30.649" xmlns="http://www.w3.org/2000/svg"><g _ngcontent-ili-c0="" data-name="Group 1501" id="Group_1501"><path _ngcontent-ili-c0="" d="M838,1525.083q8.711,0,17.422,0a2.751,2.751,0,0,0,.949-.106,2.646,2.646,0,0,0,1.279-2.768,2.224,2.224,0,0,0-1.624-2.244,5.113,5.113,0,0,0-.574-.019q-17.5,0-34.995,0a2.6,2.6,0,0,0-.912.1,2.655,2.655,0,0,0-1.278,2.77,2.22,2.22,0,0,0,1.624,2.242,5.777,5.777,0,0,0,.65.019Z" data-name="Path 57" fill="#fff" id="Path_57" transform="translate(-818.229 -1506.012)"></path><path _ngcontent-ili-c0="" d="M850.227,1505.111q-11.1,0-22.208,0a2.433,2.433,0,0,0-2.366,1.473,2.566,2.566,0,0,0,2.246,3.665c.364.016.729,0,1.094,0q21.552,0,43.1-.007a4.05,4.05,0,0,0,1.287-.178,2.559,2.559,0,0,0-.894-4.955q-6.564-.011-13.127,0Z" data-name="Path 58" fill="#fff" id="Path_58" transform="translate(-825.389 -1505.109)"></path><path _ngcontent-ili-c0="" d="M858.611,1539.914q7.5,0,15.01,0a2.528,2.528,0,0,0,2.471-1.748,2.443,2.443,0,0,0-.887-2.835,3.191,3.191,0,0,0-1.627-.534q-15.011-.046-30.021-.018a2.569,2.569,0,1,0,.043,5.136Q851.106,1539.919,858.611,1539.914Z" data-name="Path 59" fill="#fff" id="Path_59" transform="translate(-840.912 -1506.915)"></path></g></svg>
+                </button>
+            </li>
+            <li class="me-3"> <a href="#" style="font-family: almarai;"> العربية </a> </li>
+            <div class="d-inline-block w-100 text-end">
+             <i class="fa fa-search me-3"></i>
+             <i class="fa fa-shopping-cart"></i>
+            </div>
+        </ul>
+      </div>
+      
+      <div class="side-barrr">
+        <div class="side-opacity"></div>
+        <div class="side-nav">
+            <div class="nave bg-light">
+              <div class="logo-box">
+                  <img src="img/logo.png">
+              </div>
+              <div class="pages mt-3">
+                  <ul class="mb-0">
+                      <li style="z-index: 10000000000;"> <a href="#"><i class="fa fa-list me-2"></i></a> <a href="index.html"> MENU </a> </li>
+                      <hr>
+                      <li> <a href="#"><i class="fa fa-map me-2"></i></a> <a href="#"> BRANCHES </a> </li>
+                      <hr>
+                      <li> <a href="#"><i class="fa fa-question me-2"></i></a> <a href="#"> ABOUT US </a> </li>
+                      <hr>
+                      <li> <a href="#"><i class="fa fa-user me-2"></i></a> <a href="#"> LOGIN </a> </li>
+                      <hr>
+                  </ul>
+                  <div class="text-center mt-3">
+                      <p> Powered By <a href="#">000itkw.com</a> </p>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
     <!-- End Nav 1 -->
     
     <!-- Start Ads Slider -->
@@ -88,7 +128,7 @@
                         <label for="city" class="d-inline-block mb-1"> Area </label>
                         <a href="delivery.html" class="input-btn rounded"> Select Area </a>
                     </div>
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-6 col-12 zzq">
                         <label for="city" class="d-inline-block mb-1"> Delivery Time </label>
                         <a href="#" class="input-btn rounded"> Select Delivery time </a>
                     </div>
@@ -103,64 +143,58 @@
     <div class="container mt-4">
         <div class="categories">
             <div class="row">
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img1.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Vegetables </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img2.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Spices </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
                         <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <h5 class="mt-2 text-dark"> Bread </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img4.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Meat </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img5.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Legumes </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img6.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Canned food </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img7.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Drinks </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img8.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Detergent </h5>
                     </a>
                 </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
+                <div class="col-md-3 col-6 categorie-item mb-4 text-center">
                     <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
-                    </a>
-                </div>
-                <div class="col-md-3 categorie-item mb-4 text-center">
-                    <a href="#">
-                        <img src="img/categorie-img3.jpg" class="w-100 rounded">
-                        <h5 class="mt-2 text-dark"> Accessories </h5>
+                        <img src="img/categorie-img9.jpg" class="w-100 rounded">
+                        <h5 class="mt-2 text-dark"> Cosmetics </h5>
                     </a>
                 </div>
             </div>
@@ -185,5 +219,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
+
+
 </body>
 </html>
