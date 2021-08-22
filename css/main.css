@@ -168,6 +168,43 @@ Delivery Page
 .my-nav {
     display: none;
 }
+.categorie .sub-categories-box a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 300ms;
+}
+.categorie .sub-categories-box a:hover {
+    color: var(--main-color);
+}
+.categorie .sub-categories-box a.active {
+    color: var(--main-color);
+}
+.categorie .sub-categories-box a span {
+    font-size: 14px;
+    margin-left: 4px;
+    opacity: 0.83;
+}
+.categorie .sub-categories-box a.active span {
+    opacity: 0.6;
+}
+.categorie .product-item {
+    overflow: hidden;
+}
+.categorie a {
+    text-decoration: none;
+    color: #333333;
+}
+.categorie .product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.categorie .product-item p {
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
 @media screen and (max-width: 480px) {
     .navbar {
         display: none;
