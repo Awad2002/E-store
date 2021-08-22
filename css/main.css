@@ -197,13 +197,39 @@ Delivery Page
 }
 .categorie .product-item img {
     width: 100%;
-    height: 200px;
+    height: 184px;
     object-fit: cover;
 }
 .categorie .product-item p {
     color: var(--main-color);
     font-weight: 600;
     margin-bottom: 0 !important;
+}
+.product img {
+    height: 400px;
+    object-fit: cover;
+}
+.product .items-num button {
+    width: 43px;
+    height: 43px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    font-size: 24px;
+    border-radius: 50%;
+}
+.product .items-num span {
+    font-weight: 500;
+    font-size: 22px;
+}
+.product a {
+    padding: 15px 30px;
+    background: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+.product a i {
+    font-weight: 200;
 }
 @media screen and (max-width: 480px) {
     .navbar {
@@ -212,19 +238,30 @@ Delivery Page
     .categories .categorie-item img {
         height: 200px;
     }
-
     .side-nav {
         width: 76%;
         background-color: rgba(0, 0, 0, 0.571);
         height: 100vh;
         position: fixed;
+        top: 0;
         z-index: 10;
     }
     .side-opacity {
         width: 100%;
+        top: 0;
         height: 100vh;
         position: fixed;
         background-color: rgba(0, 0, 0, 0.571);
+    }
+    .product .col-md-7 {
+        margin-top: 15px;
+    }
+    .items-num {
+        display: block;
+    }
+    .product a {
+        display: inline-block;
+        margin-left: 0 !important
     }
     .zzq {
         margin-top: 8px !important;
@@ -275,11 +312,15 @@ Delivery Page
         text-decoration: none;
     }
     .my-nav {
+        top: 0;
         display: block;
         position: fixed;
         z-index: 1000;
         width: 100%;
-        background-color: transparent;
+        background: var(--main-color);
+    }
+    .my-nav.on-scroll {
+        background: transparent;
     }
     .my-nav ul {
         list-style: none;
@@ -314,5 +355,11 @@ Delivery Page
     .solid {
         background-color: var(--main-color);
         transition: background-color 0.5s ease 0s;
+    }
+    .products {
+        margin-top: 20px;
+    }
+    .categorie .product-item img {
+        height: 110px;
     }
   } 

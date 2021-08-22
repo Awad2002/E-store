@@ -9,9 +9,9 @@ $(document).ready(function(){
     $(window).scroll(function() {
       // checks if window is scrolled more than 500px, adds/removes solid class
       if($(this).scrollTop() > 32) { 
-          $('.my-nav').addClass('solid');
+          $('.my-nav.on-scroll').addClass('solid');
       } else {
-          $('.my-nav').removeClass('solid');
+          $('.my-nav.on-scroll').removeClass('solid');
       }
     });
 });
