@@ -8,7 +8,7 @@ $(document).ready(function(){
     // Transition effect for navbar 
     $(window).scroll(function() {
       // checks if window is scrolled more than 500px, adds/removes solid class
-      if($(this).scrollTop() > 48) { 
+      if($(this).scrollTop() > 150) { 
           $('.my-nav.on-scroll').addClass('solid');
       } else {
           $('.my-nav.on-scroll').removeClass('solid');
