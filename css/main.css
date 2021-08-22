@@ -231,6 +231,10 @@ Delivery Page
 .product a i {
     font-weight: 200;
 }
+.register form select,input {
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    padding: 9px;
+}
 @media screen and (max-width: 480px) {
     .navbar {
         display: none;
