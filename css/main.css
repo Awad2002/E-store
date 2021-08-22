@@ -357,7 +357,7 @@ Delivery Page
         background-size: contain;
     }
     .solid {
-        background-color: var(--main-color);
+        background-color: var(--main-color) !important;
         transition: background-color 0.5s ease 0s;
     }
     .products {
